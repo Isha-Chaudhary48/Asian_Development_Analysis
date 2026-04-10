@@ -9,7 +9,7 @@ def get_engine():
     return engine
 
 def upload_data():
-    df = pd.read_csv('../Data/world_bank_cleaned.csv')
+    df = pd.read_csv('Data/world_bank_cleaned.csv')
     df.to_sql('World_Bank',engine,if_exists = 'replace',index = False)
     print(f"Uploaded {df.shape[0]} rows,{df.shape[1]}columns")
 
