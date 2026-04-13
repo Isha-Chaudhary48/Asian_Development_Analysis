@@ -1,7 +1,7 @@
-# Global Development Analysis Dashboard
+# Asian Development Analysis 
 
 ## Overview
-This project analyzes World Bank data to understand global and regional development patterns. It covers data cleaning, feature engineering, database storage, and interactive visualization through a Streamlit dashboard.
+This project analyzes World Bank data to understand global and regional development patterns of asia. It covers data cleaning, feature engineering, database storage, and interactive visualization through a Streamlit dashboard.
 
 The goal is to identify trends and relationships across key development indicators such as economy, health, education, environment, gender, and digital access.
 
